@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+<epp:phrase id="Plugin/Screen/Admin/OpenOfficeControl:action:stop:title">Stop OpenOffice</epp:phrase>
+<epp:phrase id="Plugin/Screen/Admin/OpenOfficeControl:action:stop:description">Stop the OpenOffice process</epp:phrase>
+<epp:phrase id="Plugin/Screen/Admin/OpenOfficeControl:action:start:title">Start OpenOffice</epp:phrase>
+<epp:phrase id="Plugin/Screen/Admin/OpenOfficeControl:action:start:description">Start the OpenOffice process</epp:phrase>
+
+<epp:phrase id="Plugin/Screen/Admin/OpenOfficeControl:openoffice_stopped">OpenOffice stopped</epp:phrase>
+<epp:phrase id="Plugin/Screen/Admin/OpenOfficeControl:openoffice_started">OpenOffice started</epp:phrase>
+
+<epp:phrase id="Plugin/Screen/Admin/OpenOfficeControl:cant_stop_openoffice">Failed to stop OpenOffice</epp:phrase>
+<epp:phrase id="Plugin/Screen/Admin/OpenOfficeControl:cant_start_openoffice">Failed to start OpenOffice</epp:phrase>
+
+<epp:phrase id="Plugin/Screen/EPMC/OpenOffice:error:no_plugin">Internal error: failed to load the OpenOffice plugin.</epp:phrase>
+<epp:phrase id="Plugin/Screen/EPMC/OpenOffice:error:wrong_paths">OpenOffice was not found on your system.</epp:phrase>
+<epp:phrase id="Plugin/Screen/EPMC/OpenOffice:ready">OpenOffice is ready to be used on your system. To start or stop OpenOffice, go to the Admin page, under 'System Tools'.</epp:phrase>
+
+</epp:phrases>
