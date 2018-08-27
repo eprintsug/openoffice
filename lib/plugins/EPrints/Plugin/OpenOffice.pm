@@ -71,7 +71,9 @@ sub stop
 }
 
 sub status
-{	
+{
+	my( $self ) = @_;
+	
 	my $oosrv = EPrints::OpenOfficeService->new( session => $self->{session} );
 
 	# couldn't find OpenOffice Service?
