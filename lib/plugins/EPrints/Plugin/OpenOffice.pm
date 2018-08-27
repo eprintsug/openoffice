@@ -49,6 +49,8 @@ sub start
 
 sub stop
 {
+	my( $self ) = @_;
+
 	my $oosrv = EPrints::OpenOfficeService->new( session => $self->{session} );
 
 	# couldn't find OpenOffice Service?
